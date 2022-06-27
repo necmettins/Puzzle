@@ -41,10 +41,10 @@ struct ContentView: View {
                             }
                     }
                 }.padding()
-                    .background(Image("yaprak")
-                                    .resizable()
+                    //.background(Image("yaprak")
+                                    //.resizable()
                                     //.aspectRatio(contentMode: .fit)
-                                    .opacity(0.20))
+                                    //.opacity(0.20))
             }
             
             Spacer()
